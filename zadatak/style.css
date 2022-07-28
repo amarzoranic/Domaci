@@ -1,0 +1,20 @@
+.header {
+    background-color: red;
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+}
+ul {
+    display: flex;
+}
+li {
+    position: relative;
+   background-color: rebeccapurple;
+}
+
+@media screen and (min-width: 480px;) 
+    ul {
+        
+    }
+
+    

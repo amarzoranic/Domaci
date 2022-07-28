@@ -1,0 +1,46 @@
+table {
+    width: 300px;
+    height: 300px;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    transition: 2s;
+    animation-name: animacija;
+    animation-duration: 4s;
+}
+@keyframes animacija {
+      10% {color: black;}
+    100% {}
+}
+
+div:hover .paragraf1  {
+    color: black;
+
+}
+ 
+div:hover .paragraf2  {
+    color: black;
+}
+
+.desno {
+    border-right: 1px solid;
+    border-top: 1px solid;
+}
+
+.gore {
+    border-top: 1px solid;
+}
+.desno1, 
+.desno2 {
+    border-right: 1px solid;
+}
+
+td {
+    text-align: center;
+}
+
+p {
+    color: white;
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+div {
+position: relative;
+width: 400px;
+height: 600px;
+background-color: rgb(30, 28, 28);
+border-radius: 30px;
+border: 2px solid rgb(86, 86, 86);
+}
+
+.paragraf {
+    color: white;
+    font-size: 30px;
+    font: bold;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.paragraf2 {
+    color: rgb(148, 132, 132);
+    margin-left: 20px;
+    margin-top: 16px;
+}
+
+.img {
+    position: absolute;
+}

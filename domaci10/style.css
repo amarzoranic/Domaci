@@ -1,0 +1,506 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    height: 103%;
+}
+    /* .slova {
+        position: relative;
+        width: 334px;
+        background-color: red;
+        display: inline-block;
+        bottom: 663px;
+    }
+         */
+        
+    h1 {
+        text-shadow: 0 1px 0 #ccc, 
+        0 2px 0 #c9c9c9,
+        0 3px 0 #bbb,
+        0 4px 0 #b9b9b9,
+        0 5px 0 #aaa,
+        0 6px 1px rgba(0,0,0,.1),
+        0 0 5px rgba(0,0,0,.1),
+        0 1px 3px rgba(0,0,0,.3),
+        0 3px 5px rgba(0,0,0,.2),
+        0 5px 10px rgba(0,0,0,.25),
+        0 10px 10px rgba(0,0,0,.2),
+        0 20px 20px rgba(0,0,0,.15);
+        position: relative;
+        display: inline-block;
+        width: 0px;
+        bottom: 663px;
+        right: -1020px;
+        font-size: 0px;
+        height: 0px;
+        font-family: papirus;
+        animation: slova;
+        animation-fill-mode: forwards;
+        animation-duration: 3s;
+        animation-delay: 11s
+    }
+
+    @keyframes slova {
+        from {width: 0; font-size: 0px;}
+        to {width: 400px; font-size: 70px;}
+    }
+    /* animation-duration: 3s;
+        animation-fill-mode: forwards;
+        animation-delay: 11s; */
+    /* from {font-size: 0px;}
+        to {font-size: 60px;} */
+    /* @keyframes slova {
+        0% {color: rgba(0,0,0,0.6);
+            text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+            0px -5px 35px rgba(255,255,255,0.3); font-size: 0px;}
+        10% {color: rgba(143, 48, 48, 0.6);
+        text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+        0px -5px 35px rgba(156, 167, 108, 0.3); font-size: 10px;}     
+        20% {color: rgba(35, 30, 30, 0.6);
+            text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+            0px -5px 35px rgba(165, 188, 61, 0.3); font-size: 20px;}
+        40% {color: rgba(87, 57, 122, 0.6);
+            text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+            0px -5px 35px rgba(134, 58, 58, 0.3); font-size: 40px;}
+        60% {color: rgba(147, 26, 26, 0.6);
+            text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+            0px -5px 35px rgba(45, 18, 126, 0.3); font-size: 60px;}
+        80% {color: rgba(47, 6, 6, 0.6);
+            text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+            0px -5px 35px rgba(135, 6, 96, 0.3); font-size: 80px;}
+        100% {color: rgba(255, 0, 0, 0.6);
+            text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+            0px -5px 35px rgba(50, 14, 208, 0.3); font-size: 100px;}
+    } */
+img {
+    width: 100vw;
+}
+.podloga {
+    border: 15px  solid #795c40;
+    margin: 0;
+    width: 42%;
+    height: 87%;
+    padding: 0;
+    display: flex;
+    margin: auto;
+    background-color: #795c40;
+    top: 19px;
+    position: absolute;
+    left: 25%;
+    animation: podloga;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 11s;
+}
+@keyframes podloga {
+    from {left: 25%;}
+    to {left: 20%;}
+}
+
+
+.div {
+    border: 15px  solid #ad5500;;
+    margin: 0;
+    width: 81vh;
+    height: 78vh;
+    padding: 0;
+    display: flex;
+    margin: auto;
+    background-color: #ad5500;;
+}
+.sah {
+    width: 79vh;
+    height: 75vh;
+    border: 10px solid #d0a300;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas:  
+    "div1 div2 div3 div4 div5 div6 div7 div8"
+    "div16 div15 div14 div13 div12 div11 div10 div9"
+    "div17 div18 div19 div20 div21 div22 div23 div24"
+    "div32 div31 div30 div29 div28 div27 div26 div25"
+    "div33 div34 div35 div36 div37 div38 div39 div40"
+    "div48 div47 div46 div45 div44 div43 div42 div41"
+    "div49 div50 div51 div52 div53 div54 div55 div56"
+    "div64 div63 div62 div61 div60 div59 div58 div57";
+    margin: 0;
+    padding: 0;
+} 
+
+.slika {
+    top: 3px;
+    position: relative;
+    width: 89%;
+    height: 90%;
+}
+.prvipotez {
+    
+    position: relative;
+    width: 89%;
+    height: 90%;
+    animation-name: sahmat;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes sahmat {
+    from {top: 0px;}
+    to {top: -132px;}
+}
+.drugipotez {
+    position: relative;
+    width: 89%;
+    height: 90%;
+    animation-name: sahmat1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+@keyframes sahmat1 {
+    from {top: 0px;}
+    to {top: 68px;}
+}
+
+
+.trecipotez {
+    position: relative;
+    width: 89%;
+    height: 90%;
+    animation-name: sahmat2;
+    animation-duration: 6.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 6.5s;
+    transition: 2000ms;
+}
+ @keyframes sahmat2 {
+    from {top: 0px;}
+    to {bottom: 268px;
+        left: 286px;}
+} 
+.slika2 {
+    top: 0px;
+    position: relative;
+    width: 89%;
+    height: 90%;
+
+}
+.div1 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div1;
+}
+.div2 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div2;
+}
+.div3 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div3;
+}
+.div4 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div4;
+}
+.div5 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div5;
+}
+.div6 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div6;
+}
+.div7 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div7;
+}
+.div8 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div8;
+}
+.div9 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div9;
+}
+.div10 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div10;
+}
+.div11 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div11;
+}
+.div12 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div12;
+}
+.div13 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div13;
+}
+.div14 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div14;
+}
+.div15 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div15;
+}
+.div16 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div16;
+}
+.div17 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div17;
+}
+.div18 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div18;
+}
+.div19 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div19;
+}
+.div20 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div20;
+}
+.div21 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div21;
+}
+.div22 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div22;
+}
+.div23 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div23;
+}
+.div24 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div24;
+}
+.div25 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div25;
+}
+.div26 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div26;
+}
+.div27 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div27;
+}
+.div28 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div28;
+}
+.div29 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div29;
+}
+.div30 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div30;
+}.div31 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div31;
+}
+.div32 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div32;
+}
+.div33 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div33;
+}
+.div34 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div34;
+}
+.div35 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div35;
+}
+.div36 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div36;
+}
+.div37 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div37;
+}
+.div38 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div38;
+}
+.div39 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div39;
+}
+.div40 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div40;
+}.div41 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div41;
+}
+.div42 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div42;
+}
+.div43 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div43;
+}
+.div44 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div44;
+}
+.div45 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div45;
+}
+.div46 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div46;
+}
+.div47 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div47;
+}
+.div48 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div48;
+}
+.div49 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div49;
+}
+.div50 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div50;
+}
+.div51 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div51;
+}
+.div52 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div52;
+}
+.div53 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div53;
+}
+.div54 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div54;
+}
+.div55 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div55;
+}
+.div56 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div56;
+}
+.div57 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div57;
+}
+.div58 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div58;
+}
+.div59 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div59;
+}
+.div60 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div60;
+}
+.div61 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div61;
+}
+.div62 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div62;
+}
+.div63 {
+    background-color: #d8c274;
+    border: 1px solid;
+    grid-area: div63;
+}
+.div64 {
+    background-color: #2e302e;
+    border: 1px solid;
+    grid-area: div64;
+}
+
+
+

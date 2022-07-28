@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.glavni-div {
+
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+    display: flex;
+    flex-direction: row;
+    margin-top: 145px;
+}
+.div1 {
+width: 100px;
+height: 200px;
+display: inline-block;
+padding-left: 28px;
+padding-right: 165px;
+margin-top: 8px;  
+}
+
+
+.prvi-heading1 {
+color:  #514e5e;
+font-size: large;
+font-family: 'Arial', Times, serif;
+}
+
+.glavni-div .div1 #span #paragraf1 {
+    color: rgb(133 139 160);
+}
+.div .paragraf {
+    color: rgb(55 65 94);
+    font-family: 'Arial', Times, serif;
+}
+span{
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+
+
+.div2 {
+    width: 800px;
+    height: 200px;
+    display: inline-block;  
+}
+
+.heading2 {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+    border-top-color: rgb(229, 231, 235);
+    border-right-color: rgb(229, 231, 235);
+    border-bottom-color: rgb(229, 231, 235);
+    border-left-color: rgb(229, 231, 235);
+    font-family: 'Arial', Times, serif;
+    margin-bottom: 9px;
+}
+.paragraf2  {
+    font-family: 'Arial', Times, serif;
+    padding-bottom: 12px;
+    color: #514e5e;
+}
+.div2 #link {
+    color: rgb(117 119 241);
+    font-family: 'Arial', Times, serif;
+}
+
+
+.drugiglavni-div {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+    display: flex;
+    flex-direction: row;
+    margin-top: 145px;
+    margin-top: -26px;
+    --tw-divide-y-reverse: 0;
+    border-top-width: calc(2px * calc(1 - var(--tw-divide-y-reverse)));
+    border-bottom-width: calc(2px * var(--tw-divide-y-reverse));
+}
+
+.drugidiv1 {
+    width: 100px;
+height: 200px;
+display: inline-block;
+padding-left: 28px;
+padding-right: 165px;
+margin-top: 8px;
+}
+
+.drugiprviheading1 {
+    color:  #514e5e;
+font-size: large;
+font-family: 'Arial', Times, serif;
+}
+
+.drugidiv2 {
+    width: 800px;
+    height: 200px;
+    display: inline-block;
+}
+
+.drugiheading2 {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+    border-top-color: rgb(229, 231, 235);
+    border-right-color: rgb(229, 231, 235);
+    border-bottom-color: rgb(229, 231, 235);
+    border-left-color: rgb(229, 231, 235);
+    font-family: 'Arial', Times, serif;
+    margin-bottom: 9px;
+}
+
+.drugiparagraf2 {
+
+
+font-family: 'Arial', Times, serif;
+    padding-bottom: 12px;
+    color: #514e5e;
+}
+
+.drugiparagraf2  {
+    font-family: 'Arial', Times, serif;
+    padding-bottom: 12px;
+}
+
+.drugidiv2 #drugilink {
+     color: rgb(117 119 241);
+     font-family: 'Arial', Times, serif;
+}
+
+.drugiglavni-div .drugidiv1 #drugispan #drugiparagraf1 {
+    color: rgb(133 139 160);
+}
+
+
+
+
+.treciglavni-div {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+    display: flex;
+    flex-direction: row;
+    margin-top: 145px;
+    margin-top: -26px;
+    --tw-divide-y-reverse: 0;
+    border-top-width: calc(2px * calc(1 - var(--tw-divide-y-reverse)));
+    border-bottom-width: calc(2px * var(--tw-divide-y-reverse));
+}
+
+.trecidiv1 {
+    width: 100px;
+height: 200px;
+display: inline-block;
+padding-left: 28px;
+padding-right: 165px;
+margin-top: 8px;
+}
+
+.treciprviheading1 {
+    color:  #514e5e;
+font-size: large;
+font-family: 'Arial', Times, serif;
+}
+
+.trecidiv2 {
+    width: 800px;
+    height: 200px;
+    display: inline-block;
+}
+
+.treciheading2 {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+    border-top-color: rgb(229, 231, 235);
+    border-right-color: rgb(229, 231, 235);
+    border-bottom-color: rgb(229, 231, 235);
+    border-left-color: rgb(229, 231, 235);
+    font-family: 'Arial', Times, serif;
+    margin-bottom: 9px;
+}
+
+.treciparagraf2 {
+
+
+font-family: 'Arial', Times, serif;
+    padding-bottom: 12px;
+    color: #514e5e;
+}
+
+.treciparagraf2  {
+    font-family: 'Arial', Times, serif;
+    padding-bottom: 12px;
+}
+
+.trecidiv2 #drugilink {
+     color: rgb(117 119 241);
+     font-family: 'Arial', Times, serif;
+}
+
+.treciglavni-div .trecidiv1 #trecispan #treciparagraf1 {
+    color: rgb(133 139 160);
+}
+
+.trecidiv2 #trecilink {
+    color: rgb(117 119 241);
+    font-family: 'Arial', Times, serif;
+}
+* {
+    line-height: 1.625;
+}

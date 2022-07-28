@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+
+#div {
+    background-color: #e5e7eb;
+    width: 200px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    height: 150px; 
+  margin: 2px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+ #paragraf {
+  padding: 56px 30px 26px 35px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgrey;
+    display: inline-block;
+}
+
+body {
+    font-family: inherit;
+    line-height: inherit;
+}
+
+ 
+

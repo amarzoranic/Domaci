@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.glavni {
+    position: relative;
+width: 1000px;
+margin-left: 141px;
+margin-top: 107px;
+
+}
+
+.trecidiv {
+    width: 91px;
+    height: 103px;
+    position: relative;
+    display: inline-block;
+    padding-right: 19px;
+    color: rgb(99 102 241);
+    border:#8672f1; 
+    border-radius: 1000px;
+    background-color: rgb(224 231 255);
+    margin-right: 30px;
+}
+
+.div1 {
+    position: relative;
+    width: 600px;
+    height: 100px;
+    display: inline-block;
+
+}
+
+.span .paragraf1 {
+    margin-top: 10px;
+    color: #5c5f67;
+}
+
+span .paragraf2
+{ 
+    color:#8672f1 ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.drugiglavni {
+    position: relative;
+    width: 800px;
+    margin-top: 88px;
+    margin-left: 135px;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 59px;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 51px;
+}
+
+
+
+    .drugidiv1 {
+        width: 600px;
+        height: 100px;
+    }
+
+    .drugispan .drugiparagraf1 {
+        margin-top: 10px;
+        color: #5c5f67;
+    }
+
+   .drugiglavni .drugidiv1 .span #drugiparagraf2 {
+        color:#8672f1 ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+    }
+
+
+   .treciglavni {
+   position: relative;
+   width: 800px;
+   margin-top: 14px;
+   margin-left: 135px;
+   padding-top: 59px;
+   }
